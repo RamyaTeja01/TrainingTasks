@@ -1,0 +1,37 @@
+package AutomationPackage;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LocateByIdDemo  {
+
+		public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
+
+		driver.manage().timeouts().implicitlyWait (Duration.ofMillis(2000));
+
+		WebElement textBox = driver.findElement(By.id("my-text-id"));
+
+		textBox.sendKeys ("java");
+
+		driver.manage().timeouts().implicitlyWait (Duration.ofMillis(2000));
+
+		String response =textBox.getAttribute("value");
+		System.out.println("Response is: " + response);
+
+		driver.manage().timeouts().implicitlyWait (Duration.ofMillis(2000));
+
+		driver.quit();
+
+		}
+}
+

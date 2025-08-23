@@ -1,0 +1,10 @@
+2025-08-20 21:11:59,541 [main] INFO  LoggerEx.LoggerDemo - Starting login test
+2025-08-20 21:12:00,321 [main] WARN  LoggerEx.LoggerDemo - This is a warning example
+2025-08-20 21:12:00,322 [main] ERROR LoggerEx.LoggerDemo - This is an error example
+2025-08-20 21:12:00,326 [main] INFO  LoggerEx.LoggerDemo - Test completed
+2025-08-20 21:30:24,467 [main] INFO  LoggerEx.LoggerExamp - Starting login test - init()
+2025-08-20 21:30:29,988 [main] INFO  LoggerEx.LoggerExamp - Starting login test - init()
+2025-08-20 21:30:30,381 [main] INFO  LoggerEx.LoggerExamp - Starting login test - init()
+2025-08-20 21:32:36,516 [main] INFO  LoggerEx.LoggerExamp - Starting login test - init()
+2025-08-20 21:32:42,431 [main] INFO  LoggerEx.LoggerExamp - Navigated to application
+2025-08-20 21:32:42,865 [main] INFO  LoggerEx.LoggerExamp - Displaying Result

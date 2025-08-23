@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGTasks]">
+  <test thread-count="5" name="CrossBrowserTest(failed)">
+    <classes>
+      <class name="tests.CrossBrowserTest">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="verifySomething"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CrossBrowserTest -->
+    </classes>
+  </test> <!-- CrossBrowserTest(failed) -->
+</suite> <!-- Failed suite [TestNGTasks] -->

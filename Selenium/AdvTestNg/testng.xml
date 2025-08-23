@@ -1,0 +1,50 @@
+<suite name="TestNGTasks" parallel="false">
+<test name="ParamTest">
+<parameter name="url" value="https://google.com"/>
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="tests.ParamTest"/>
+</classes>
+</test>
+<test name="DependencyTest">
+<classes>
+<class name="tests.DependencyTest"/>
+</classes>
+</test>
+<test name="MultiThreadTest">
+<classes>
+<class name="tests.MultiThreadTest"/>
+</classes>
+</test>
+<test name="ExtentReportTest">
+<classes>
+<class name="tests.ExtentReportTest"/>
+</classes>
+</test>
+<test name="AssertionTest">
+<classes>
+<class name="tests.AssertionTest"/>
+</classes>
+</test>
+<test name="CrossBrowserTest">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="tests.CrossBrowserTest"/>
+</classes>
+</test>
+<test name="TestSuitesTest">
+<classes>
+<class name="tests.TestSuitesTest"/>
+</classes>
+</test>
+<test name="ListenersTest">
+<classes>
+<class name="tests.ListenersTest"/>
+</classes>
+</test>
+<test name="DataProvidersTest">
+<classes>
+<class name="tests.DataProvidersTest"/>
+</classes>
+</test>
+</suite>
