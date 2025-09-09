@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.647" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Successful login and logout" time="12.284">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I login with username "ramyateja" and password "RamyaTeja@01"..........passed
+Then I should see a welcome "ramyateja" message.............................passed
+When I logout...............................................................passed
+Then I should be back on the login page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Invalid login shows an error message - Example #1.1" time="5.815">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I login with username "wrong" and password "SuperSecretPassword!"......passed
+Then I should see an error message..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Invalid login shows an error message - Example #1.2" time="3.876">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I login with username "tomsmith" and password "wrong"..................passed
+Then I should see an error message..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Adding Items to cart and placing order" time="20.321">
+<system-out><![CDATA[
+Given I am on the login page................................................passed
+When I add item "Samsung galaxy s6" to cart.................................passed
+When I add item "Nokia lumia 1520" to cart..................................passed
+Then I move to cart page....................................................passed
+Then check whether item "Samsung galaxy s6" added to the cart or not........passed
+Then check whether item "Nokia lumia 1520" added to the cart or not.........passed
+Then delete item "Nokia lumia 1520" from cart...............................passed
+When I add item "Nexus 6" to cart...........................................passed
+Then the total should be 1010...............................................passed
+Then I place the order with name "Name", country "Country", city "City", card "123", month "11", year "2025".passed
+Then I should see order confirmation details................................passed
+]]></system-out>
+</testcase>
+</testsuite>

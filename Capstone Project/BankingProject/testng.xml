@@ -1,0 +1,35 @@
+<suite name="BankingSuite" verbose="1" parallel="tests" thread-count="5">
+    <test name="RegisterTest">
+        <classes>
+            <class name="com.banking.tests.RegisterTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="com.banking.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="AccountsOverviewTest">
+        <classes>
+            <class name="com.banking.tests.AccountsOverviewTest"/>
+        </classes>
+    </test>
+
+    <test name="OpenAccountTest">
+        <classes>
+            <class name="com.banking.tests.OpenAccountTest"/>
+        </classes>
+    </test>
+
+    
+
+ 
+
+    <test name="BillPaymentTest">
+        <classes>
+            <class name="com.banking.tests.BillPaymentTest"/>
+        </classes>
+    </test>
+</suite>

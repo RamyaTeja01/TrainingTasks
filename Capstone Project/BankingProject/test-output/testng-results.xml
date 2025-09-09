@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T17:40:20 IST" name="BankingSuite" finished-at="2025-09-08T17:40:59 IST" duration-ms="39103">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T17:40:20 IST" name="AccountsOverviewTest" finished-at="2025-09-08T17:40:50 IST" duration-ms="30496">
+      <class name="com.banking.tests.AccountsOverviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.tests.AccountsOverviewTest@7dcf94f8]" started-at="2025-09-08T17:40:20 IST" name="setup" finished-at="2025-09-08T17:40:47 IST" duration-ms="27512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAccountsOverviewPageLoads()[pri:0, instance:com.banking.tests.AccountsOverviewTest@7dcf94f8]" started-at="2025-09-08T17:40:48 IST" name="verifyAccountsOverviewPageLoads" finished-at="2025-09-08T17:40:48 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsOverviewPageLoads -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.tests.AccountsOverviewTest@7dcf94f8]" started-at="2025-09-08T17:40:48 IST" name="teardown" finished-at="2025-09-08T17:40:50 IST" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.banking.tests.AccountsOverviewTest -->
+    </test> <!-- AccountsOverviewTest -->
+    <test started-at="2025-09-08T17:40:20 IST" name="RegisterTest" finished-at="2025-09-08T17:40:50 IST" duration-ms="30371">
+      <class name="com.banking.tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.tests.RegisterTest@14cd1699]" started-at="2025-09-08T17:40:20 IST" name="setup" finished-at="2025-09-08T17:40:30 IST" duration-ms="9905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserRegistration()[pri:0, instance:com.banking.tests.RegisterTest@14cd1699]" started-at="2025-09-08T17:40:30 IST" name="testUserRegistration" finished-at="2025-09-08T17:40:48 IST" duration-ms="18603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.tests.RegisterTest@14cd1699]" started-at="2025-09-08T17:40:49 IST" name="teardown" finished-at="2025-09-08T17:40:50 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.banking.tests.RegisterTest -->
+    </test> <!-- RegisterTest -->
+    <test started-at="2025-09-08T17:40:20 IST" name="OpenAccountTest" finished-at="2025-09-08T17:40:53 IST" duration-ms="33438">
+      <class name="com.banking.tests.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.banking.tests.OpenAccountTest@477b4cdf]" started-at="2025-09-08T17:40:20 IST" name="setUp" finished-at="2025-09-08T17:40:32 IST" duration-ms="11943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openNewAccount()[pri:0, instance:com.banking.tests.OpenAccountTest@477b4cdf]" started-at="2025-09-08T17:40:32 IST" name="openNewAccount" finished-at="2025-09-08T17:40:53 IST" duration-ms="20784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.tests.OpenAccountTest@477b4cdf]" started-at="2025-09-08T17:40:53 IST" name="tearDown" finished-at="2025-09-08T17:40:53 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.banking.tests.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+    <test started-at="2025-09-08T17:40:20 IST" name="LoginTest" finished-at="2025-09-08T17:40:57 IST" duration-ms="37398">
+      <class name="com.banking.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.banking.tests.LoginTest@385c9627]" started-at="2025-09-08T17:40:20 IST" name="setUp" finished-at="2025-09-08T17:40:57 IST" duration-ms="36860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleContainsParaBank()[pri:0, instance:com.banking.tests.LoginTest@385c9627]" started-at="2025-09-08T17:40:57 IST" name="verifyTitleContainsParaBank" finished-at="2025-09-08T17:40:57 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleContainsParaBank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.tests.LoginTest@385c9627]" started-at="2025-09-08T17:40:57 IST" name="tearDown" finished-at="2025-09-08T17:40:57 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.banking.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-09-08T17:40:20 IST" name="BillPaymentTest" finished-at="2025-09-08T17:40:59 IST" duration-ms="39103">
+      <class name="com.banking.tests.BillPaymentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.tests.BillPaymentTest@1e800aaa]" started-at="2025-09-08T17:40:20 IST" name="setup" finished-at="2025-09-08T17:40:54 IST" duration-ms="34464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="payBill()[pri:0, instance:com.banking.tests.BillPaymentTest@1e800aaa]" started-at="2025-09-08T17:40:54 IST" name="payBill" finished-at="2025-09-08T17:40:59 IST" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payBill -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.banking.tests.BillPaymentTest@1e800aaa]" started-at="2025-09-08T17:40:59 IST" name="teardown" finished-at="2025-09-08T17:40:59 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.banking.tests.BillPaymentTest -->
+    </test> <!-- BillPaymentTest -->
+  </suite> <!-- BankingSuite -->
+</testng-results>
